@@ -1,0 +1,11 @@
+name: My first workflow
+on: push
+
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo
+      run: echo "My fist work actions"
+    - name: ls
+      run: ls
