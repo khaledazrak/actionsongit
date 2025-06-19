@@ -9,3 +9,8 @@ jobs:
       run: echo "My fist work actions"
     - name: ls
       run: ls
+    - name: checkoutrepo
+      uses: actions/checkout@v4
+ 
+
+      
