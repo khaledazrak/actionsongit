@@ -8,6 +8,9 @@ jobs:
     - name: checkoutrepo
       uses: actions/checkout@v4
     - name: Lister les fichiers dans $GITHUB_WORKSPACE
-      run: ls -la $GITHUB_WORKSPACE
+      run: |
+        ls -la $GITHUB_WORKSPACE
+        pwd
+        echo "la commande marche"
 
       
