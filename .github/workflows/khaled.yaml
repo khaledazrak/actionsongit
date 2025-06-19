@@ -13,5 +13,4 @@ jobs:
         pwd
         echo "la commande marche"
     - name: Generate ASCII Art
-      run: cowsay -f dragon "run for you ass" >>> dragon.txt
-      
+      run: cowsay -f dragon "run for you ass" >> dragon.txt
