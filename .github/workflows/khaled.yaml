@@ -2,7 +2,7 @@ name: My first workflow
 on: push
 
 jobs:
-  first:
+  ascii:
     runs-on: ubuntu-latest
     steps:
     - name: checkoutrepo
