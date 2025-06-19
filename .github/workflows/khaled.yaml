@@ -5,12 +5,9 @@ jobs:
   first:
     runs-on: ubuntu-latest
     steps:
-    - name: echo
-      run: echo "My fist work actions"
-    - name: ls
-      run: ls
     - name: checkoutrepo
       uses: actions/checkout@v4
- 
+    - name: Lister les fichiers dans $GITHUB_WORKSPACE
+      run: ls -la $GITHUB_WORKSPACE
 
       
