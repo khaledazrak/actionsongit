@@ -12,5 +12,7 @@ jobs:
         ls -la $GITHUB_WORKSPACE
         pwd
         echo "la commande marche"
+    - name: install cowsay
+      run: sudo apt install cowsay -y     
     - name: Generate ASCII Art
       run: cowsay -f dragon "run for you ass" >> dragon.txt
