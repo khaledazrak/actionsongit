@@ -18,3 +18,4 @@ jobs:
       run: cowsay -f dragon "run for you ass" >> dragon.txt
     - name: Generate ASCII Art
       run: cat dragon.txt
+      
